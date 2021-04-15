@@ -8,7 +8,7 @@ const connectDB = require('./server/database/connection')
 require('dotenv').config({path:'config.env'})
 const PORT = process.env.PORT || 8080
 
-// configs
+
 app.use(morgan('tiny'))
 
 // mongodb connection
